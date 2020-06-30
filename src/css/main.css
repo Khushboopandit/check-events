@@ -1,0 +1,14 @@
+
+body{
+  font-family: monospace;
+}
+.card-upper-line {
+  background: #13a0b9;
+  border-bottom-right-radius: 130px;
+  border-bottom-left-radius: 130px;
+  padding: 3px;
+}
+
+.font-size-14{
+  font-size: 14px;  
+}
