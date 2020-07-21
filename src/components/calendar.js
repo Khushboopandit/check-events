@@ -7,12 +7,13 @@ import "react-big-calendar/lib/sass/styles.scss";
 const localizer = momentLocalizer(moment);
 
 class ShowCalendar extends Component {
+ 
   render() {
     return (
       <div className="shadow-sm p-3 mb-5 bg-white rounded">
           <Calendar
             localizer={localizer}
-            events={this.props.events.events}
+            events={this.props.events}
             startAccessor="start"
             endAccessor="end"
             style={{ height: 400 }}
